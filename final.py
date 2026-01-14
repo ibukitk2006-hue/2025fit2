@@ -50,4 +50,4 @@ class App:
             for enemy in self.enemies:
                 pyxel.circ(enemy[0], enemy[1], 4, 8)
             pyxel.text(5, 5, f"SCORE: {self.score}", 7)
-App()
+App() 
